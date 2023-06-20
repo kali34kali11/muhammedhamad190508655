@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Muhammedhamada190508655"
+        tools:targetApi="31">
+        <activity
+            android:name=".kunfe"
+            android:exported="false"
+            android:parentActivityName=".tatli2" />
+        <activity
+            android:name=".tatli2"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ispann"
+            android:exported="false"
+            android:parentActivityName=".yemek" />
+        <activity
+            android:name=".sispr"
+            android:exported="false"
+            android:parentActivityName=".yemek" />
+        <activity
+            android:name=".yemek"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Kasimbey"
+            android:exported="false"
+            android:parentActivityName=".Tarihi" />
+        <activity
+            android:name=".cami"
+            android:exported="false"
+            android:parentActivityName=".Tarihi" />
+        <activity
+            android:name=".Kara"
+            android:exported="false"
+            android:parentActivityName=".Tarihi" />
+        <activity
+            android:name=".Barlaam"
+            android:exported="false"
+            android:parentActivityName=".Tarihi" />
+        <activity
+            android:name=".Tarihi"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".shirsayfa"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
